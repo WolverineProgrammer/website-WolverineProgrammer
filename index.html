@@ -3,6 +3,12 @@
   <body>
         
       <h1> Henry's Website </h1>
+   
+    <ul>
+    <li><a href="index.html"> Main Page</a></li>
+    <li><a href="images.html"> Images </a></li>
+    <li><a href="apps.html"> Applications </a></li>
+     <ul> 
         
       <center> <img src="personalartifact.jpg" alt="Henry's personal artifact" width="400"> <center>
         
@@ -19,6 +25,32 @@ h1{
   text-align: center;
   font-size: 100px;
 }
+    ul {
+  list-style-type: none;
+   display: inline;
+  background-color: lime;
+  width: 60%;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  bottom: 100;
+  border: 4px solid #456;
+}
+
+
+li{
+  display: inline;
+  padding: 20px 70px;
+  text-decoration: none;
+}
+ 
+li a:hover {
+  background-color:gold;
+}
+  
+li a:link {
+    text-decoration:none;
+}   
 </style>
 
 
