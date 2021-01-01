@@ -20,7 +20,7 @@ background-color: aquamarine;
 
 
 li{
-  display: inline;
+  display: block;
   padding: 20px 10px;
   text-decoration: none;
 }
