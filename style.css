@@ -24,12 +24,17 @@ li{
   display: inline;
   padding: 20px 10px;
   text-decoration: none;
+  border-right: 1px solid #bbb;
 }
  
 li a:hover {
   background-color:gold;
 }
   
+li:last-child {
+  border-right: none;
+}
+
 li a:link {
     text-decoration:none;
 }   
