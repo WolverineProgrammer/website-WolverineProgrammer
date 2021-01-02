@@ -11,8 +11,8 @@ background-color: aquamarine;
   list-style-type: none;
    display: block;
   float: left;
-  background-color: lime;
-  width: 40%;
+  background-color: gold;
+  width: 99%;
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -21,6 +21,7 @@ background-color: aquamarine;
 
 
 li{
+  color: black;
   display: inline;
   padding: 20px 10px;
   text-decoration: none;
@@ -28,7 +29,7 @@ li{
 }
  
 li a:hover {
-  background-color:gold;
+  background-color:yellow;
 }
   
 li:last-child {
