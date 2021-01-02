@@ -23,13 +23,14 @@ background-color: alabaster;
 
 
 li{
-  display: inline;
-  padding: 20px 10px;
-  text-decoration: none;
-  border-right: 1px solid #bbb;
+
 }
  
 li a {
+ display: inline;
+ padding: 20px 10px;
+ text-decoration: none;
+ border-right: 1px solid #bbb;
  color: eerie black;
  display: block;
 
