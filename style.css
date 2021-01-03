@@ -17,14 +17,16 @@ background-color: #E8EDDF;
 
 li {
   float: left;
+  display: inline;
 }
 
 li a {
   display: block;
-  color: red;
-  text-align: center;
   padding: 19px 20px;
   text-decoration: none;
+  color: red;
+  text-align: center;
+  
 }
 
 li a:hover {
