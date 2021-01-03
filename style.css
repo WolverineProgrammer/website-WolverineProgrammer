@@ -4,36 +4,31 @@ background-color: #E8EDDF;
 /*----Nav Bar Stuff-----*/
      ul {
   list-style-type: none;
+   display: block;
   float: left;
   background-color: #F5CB5C;
+  width: 40%;
   width: 100%;
   position: fixed;
   overflow: hidden;
   top: 0;
-  padding: 0;     
-  border: 1px solid #fff;
+@@ -16,21 +16,13 @@ background-color: #E8EDDF;
 }
 
 
-li {
-  display: inline;
+
+li{
+  float: left;
+  
+  border-right: 10px solid #fff;
 }
 
 li a {
-  display: block;
+  padding: 20px 10px;
   text-decoration: none;
-  color: #242423;
-  
+  display: block;
+  color:#242423;
 }
 
 li a:hover {
   background-color:#CFDBD5;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-li a:link {
-    text-decoration:none;
-}   
