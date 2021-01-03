@@ -4,7 +4,6 @@ background-color: #E8EDDF;
 /*----Nav Bar Stuff-----*/
      ul {
   list-style-type: none;
-   display: block;
   float: left;
   background-color: #F5CB5C;
   width: 100%;
@@ -17,12 +16,15 @@ background-color: #E8EDDF;
 
 
 li{
-  display: block;
-  padding: 12px 14px;
-  text-decoration: none;
+  
   border-right: 10px solid #fff;
 }
 
+li a{
+     display: block;
+  padding: 12px 14px;
+  text-decoration: none;
+}
 
 li a:hover {
   background-color:#CFDBD5;
