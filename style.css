@@ -1,16 +1,17 @@
 body {
-background-color: aquamarine;
+background-color: #CFDBD5;
      }
 /*----Nav Bar Stuff-----*/
      ul {
   list-style-type: none;
    display: block;
   float: left;
-  background-color: lime;
+  background-color: #F5CB5C;
   width: 40%;
   position: fixed;
   overflow: hidden;
   top: 0;
+  padding: 0;     
   border: 4px solid #456;
 }
 li{
@@ -21,7 +22,7 @@ li{
 }
 
 li a:hover {
-  background-color:gold;
+  background-color:#E8EDDF;
 }
 
 li:last-child {
