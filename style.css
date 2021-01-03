@@ -7,7 +7,7 @@ background-color: #E8EDDF;
    display: block;
   float: left;
   background-color: #F5CB5C;
-  width: 40%;
+  width: 100%;
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -16,21 +16,13 @@ background-color: #E8EDDF;
 }
 
 
-
 li{
-  display: inline;
-  padding: 20px 10px;
+  display: block;
+  padding: 12px 14px;
   text-decoration: none;
-  border-right: 1px solid #bbb;
+  border-right: 10px solid #fff;
 }
 
-li a {
- 
-  padding: 30px;
-  background-color: #F5CB5C;
-  display: block;
-  color:#242423;
-}
 
 li a:hover {
   background-color:#CFDBD5;
