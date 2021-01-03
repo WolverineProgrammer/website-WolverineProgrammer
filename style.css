@@ -5,7 +5,6 @@ background-color: #E8EDDF;
      ul {
   list-style-type: none;
    display: block;
-  float: left;
   background-color: #F5CB5C;
   width: 40%;
   width: 100%;
@@ -19,16 +18,17 @@ background-color: #E8EDDF;
 
 li{
   float: left;
-  
   border-right: 2px solid #242423;
+  top: 0;
 }
 
 li a {
-  padding: 20px 10px;
+  padding: 17px;
   text-decoration: none;
+   top: 0;
   display: block;
   color:#242423;
-  font-family: "marker felt";
+  font-family: "garamond";
 }
 
 li a:hover {
