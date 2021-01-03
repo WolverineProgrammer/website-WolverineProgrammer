@@ -1,5 +1,5 @@
 body {
-background-color: #CFDBD5;
+background-color: #E8EDDF;
      }
 /*----Nav Bar Stuff-----*/
      ul {
@@ -22,7 +22,7 @@ li{
 }
 
 li a:hover {
-  background-color:#E8EDDF;
+  background-color:#CFDBD5;
 }
 
 li:last-child {
