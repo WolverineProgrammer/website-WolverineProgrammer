@@ -6,12 +6,13 @@ background-color: #E8EDDF;
   list-style-type: none;
    display: block;
   background-color: #F5CB5C;
-  width: 40%;
-  width: 100%;
-  position: fixed;
+  width: 99.9%;
+  padding: 0;      
+  position: absolute;
   overflow: hidden;
+  margin: 0;
   top: 0;
-@@ -16,21 +16,13 @@ background-color: #E8EDDF;
+ background-color: #E8EDDF;
 }
 
 
